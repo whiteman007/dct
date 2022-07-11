@@ -1,0 +1,172 @@
+#NextNav,#BackNav{
+    top: 2px;
+    position: relative;
+    width: 50px;
+    height: 28px;
+    padding: 0;
+    font-size: 11px;
+}
+.navb,#add_max{
+    width: 50px;
+    height: 28px;
+
+}
+.form1.ui-autocomplete-input{
+    height: 28px;
+}
+.ui-button{
+    width: 50px;
+    height: 28px;
+    top: -2px;
+    position: relative;
+
+}
+.form_2 {
+    color: #4D6380;
+    border: 1px solid #626075;
+    background-color: #ffffff;
+    font-family:GE
+}
+body{
+    margin: 0;
+}
+.header_text   {color: #333333; font-family: Tahoma; font-size: 18px;  border: 1px solid #565656; background-color: #e40613; height:20px}
+.link_highlight{font-family: Tahoma; color:#000000; font-size: 20px; text-decoration:none}
+.td_highlight{  color: #cccccc; font-family: Tahoma; font-size: pt; background-color: #e40613 !important;  border: 1px solid #565656;}
+.navigation   {border:1px solid #e40613}
+.link_sort    {  color: #e40613; font-family: Tahoma; font-size: 8pt; font-weight: bold;}
+.tdd          {  color: #ff0000; font-family: Tahoma; font-size: 8pt; background-color: #cccccc}
+.admin_ar    {font-family: arial; color: #e40613; font-size: 12pt; font-weight:bold}
+.nav_s		 {font-family: Tahoma; color: #333333; font-size: 8pt; text-decoration:none}
+:hover.nav_s {font-family: Tahoma; background-color: #565656; color:#333333; font-size: 8pt; text-decoration:none;}
+.tree        {font-family: Tahoma; color: #000000; font-size: 11pt; text-decoration:none}
+.green       { background-color:#008000; color: #565656;font-family: Tahoma; font-size: 8pt;}
+.orange	  	 { color: #565656; font-family: Tahoma; font-size: 8pt; background-color: #FF8000}
+.red		 { background-color:#ff0000; color: #565656;font-family: Tahoma; font-size: 8pt;}
+
+.label		{ color:#e40613; font-size:13px; font-weight:bold}
+.st		  {font-family:Arial, Helvetica, sans-serif;font-size:16px;font-weight:bold;color:#565656;}
+.copywright  {font-family: Verdana; color: #565656; font-size: 7pt}
+.tdh         {  color: 000000; font-family: Tahoma; font-size: 9pt; background-color: #cccccc; }
+.td          {  color: #333333; font-family: Tahoma; font-size: 9pt; background-color: #cccccc; direction:ltr}
+.th          {  color: #e40613; font-family: Tahoma; font-size: 8pt; font-weight: bold; border: 1px solid #565656; background-color: #cccccc}
+.admin	     {font-family: tahoma; color: #000000; font-size: 13pt;}
+.form1	     {color: #565656; border:1px solid; background-color: #ffffff; font:13px tahoma; border-color:#aaaaaa #000000 #000000 #aaaaaa;   }
+.form	     {color: #565656; border:1px solid; background-color: #ffffff;font:13px tahoma;border-color:#aaaaaa #000000 #000000 #aaaaaa; }
+.formtext	 {font-family: Tahoma; color: #565656; font-size: 9pt}
+.err		 {font-family: Tahoma; color: #565656; font-size: 11pt}
+.nav		 {font-family: Tahoma; color: #565656; font-size: 9pt; text-decoration:none; }
+.nav_white		 {font-family: Tahoma; color: #ffffff; font-size: 9pt; text-decoration:none; }
+:hover.nav	 {font-family: Tahoma;  color:#e40613; font-size: 9pt; text-decoration:none;}
+.link		 {font-family: Tahoma; color: #333333; font-size: 20px; text-decoration:none !important;display: block ;padding: 10px 0}
+.link1		 {font-family: Tahoma; color: #000000;font-weight:bold;font-size: 11pt; text-decoration:none}
+.link3		 {font-family: Arial, Helvetica, sans-serif;  color: #565656;font-weight:bold; font-size: 17px; text-decoration:none; margin-top:10px }
+.link2		 {font-family: Tahoma; color: #565656;font-weight:bold;font-size: 12pt; text-decoration:none}
+.link4		 {font-family: Tahoma; color: #000000; font-size: 8pt; text-decoration:none}
+:hover.link4 {font-family: Tahoma; color: #f0f0f0; font-size: 8pt; text-decoration:none}
+:hover.link	 {font-family: Tahoma; color: #aaa; font-size: 20px; text-decoration:underline}
+.text	     {font-family: Tahoma; color: #565656; font-size: 9pt}
+.text_1	     {font-family: Tahoma; color: #333333; font-size: 9pt}
+.text_head	 {
+    color:#565656;
+    font-size:14px;
+}
+
+
+.add		 {font:14px Tahoma; color: #565656;  text-decoration:none}
+:hover.add	 {font:14px Tahoma; color: #565656;  text-decoration:none}
+.fixadd		 {font:14px Tahoma; color: #e40613;  text-decoration:underline}
+body         {color: #565656; background-color: #ffffff}
+hr           {border: 1px solid #e40613 }
+.ftab        {
+                width: 800px;
+                text-align: center;
+                direction: rtl;
+                border: 1px solid;
+                border-color:#000000 #aaaaaa #aaaaaa #000000;
+                background: #f0f0f0;
+                border-radius: 10px;
+                margin-top: 10px;
+                padding-bottom: 10px;
+                overflow: auto;
+               }
+.tablehead   {background : #565656;}
+.table       {border-color: #e40613;}
+.txt         {font: Tahoma;  color:#4169E1;}
+.button{ background:#e40613; color:#ffffff}
+/*------------------ jquery---------------------*/
+.ui-dialog-titlebar{ background:#e40613 !important}
+
+.ui-widget{ opacity:0.90; background:#565656 !important; border:2px solid #565656 !important }
+
+.ui-autocomplete{
+	height:100px;
+	overflow: auto;
+	overflow-x:hidden;
+	white-space:nowrap;
+}
+.ui-menu-item{
+	direction:rtl;
+	background:#e40613 !important;
+	color:#333;
+} 
+
+.ui-autocomplete-loading { background:  url('../plugins/jquery/images/ui-anim.gif') left center no-repeat !important; }
+
+/* -----------------------------------        */
+.menu_main{
+     width: 160px;
+     height: 43px;
+     background: url('images/menu_back.jpg') center  center no-repeat;
+     padding: 0 15px 0 15px;
+     border-bottom: 2px solid #565656;
+     line-height: 43px;
+     vertical-align: middle;
+ }
+
+.form_add{
+    float: right;
+    width: 75%;
+    text-align: right;
+    padding-top: 15px;
+}
+
+.text_head_2{
+    color:#565656;
+    font-size:14px;
+    clear: both;
+    float: right; min-width: 20%; text-align: center; direction: rtl; padding-top: 15px;
+}
+.ui-tabs-panel{
+    background: #F0F0F0 !important;
+    border:0 !important;
+}
+.ui-widget-content{
+    background: #e5e5e5 !important;
+    border: 0 !important;
+}
+.ui-tabs .ui-tabs-nav{
+    background: #E30713 !important;
+    border: 0 !important;
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a{
+    color: red;
+    background: #F0F0F0 !important;
+    border: 0 !important;
+}
+.vmiddle{
+    vertical-align:middle ;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.ltr{
+    direction: ltr;
+}
+.rtl{
+    direction: rtl;
+}

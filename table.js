@@ -1,19 +1,11 @@
-﻿function addRow(id,value,field,element)
-{
-if(id){
-var newRow = document.getElementById(element).insertRow(null);
-var oCel2 = newRow.insertCell(null);
+﻿function addRow(field,value,vote,values,element){
+    var newRow = document.getElementById(element).insertRow(null);
+    var oCel2 = newRow.insertCell(null);
 
-oCel2.innerHTML = "<input type='button' style='font-size:11px;font-family:arial'  value='حذف' onclick='delete_row(this)'/>";
+    oCel2.innerHTML = "";
 
-var oCell = newRow.insertCell(null);
-oCell.style.width="30%"
-oCell.style.textAlign="right"
-oCell.style.fontSize="12px"
-oCell.style.fontFamily="tahoma"
-oCell.innerHTML = "<input type='hidden' size=20 name="+field+" value="+id+">"+value;
-}
-
+    var oCell = newRow.insertCell(null);
+    oCell.innerHTML = "<input type='text' class='form1' size=30 name="+field+" value='"+value+"'> ";
 }
 
 
